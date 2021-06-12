@@ -42,7 +42,7 @@
         }
     },
     "lint-staged": {
-        "{*,{src,public,docs,.storybook}/**/*,__{tests,mocks}__/**/*}.{js,jsx,tsx}": [
+        "{*,{src,public,docs,.storybook}/**/*,__{tests,mocks}__/**/*}.{js,ts}": [
             "prettier --write",
             "eslint"
         ],
